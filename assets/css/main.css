@@ -81,8 +81,6 @@ section {
 .img-full {
     width: 100%;
 }
-
-
 /*navbar*/
 
 .navbar-default .navbar-nav>.active>a,
@@ -108,10 +106,8 @@ section {
 }
 
 .navbar-brand img {
-    width: 60px;
+    width: auto;
     transition: all 0.4s ease-in-out;
-    padding-top: 1px;
-    margin-top: -2rem;
 }
 
 .navbar-toggle {
@@ -120,17 +116,16 @@ section {
 
 @media (min-width: 768px) {
     .navbar-brand img {
-        width: 110px;
+        width: auto;
+        height: 60px;
     }
     .navbar-nav>li>a {
         padding-top: 30px;
         padding-bottom: 30px;
     }
 }
-
-
 /**********************
-		Header
+    Header
 **********************/
 
 .header {
@@ -146,9 +141,29 @@ section {
 .intro h1 {
     position: relative;
     color: #fff;
-    font-size: 90px;
-    text-transform: uppercase;
+    font-size: 80px;
     line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .intro h1 {
+        text-transform: uppercase;
+    }
+    .intro h1:after,
+    .intro h1:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: #fff;
+    }
+    .intro h1:after {
+        bottom: 0;
+    }
+    .intro h1:before {
+        top: 0;
+    }
 }
 
 .intro h1:after,
@@ -175,7 +190,7 @@ section {
     text-transform: uppercase;
     font-size: 15px;
     padding: 12px 50px;
-    left: calc(50% - 89px);
+    left: calc(50% - 110px);
     border-radius: 5px;
     border-color: rgb(42, 118, 231);
     color: rgb(0, 0, 0);
@@ -187,10 +202,8 @@ section {
         bottom: 30px;
     }
 }
-
-
 /**********************
-		Fun
+    Fun
 **********************/
 
 .fun {
@@ -209,10 +222,8 @@ section {
 .fun-title {
     font-size: 18px;
 }
-
-
 /**********************
-		CTA
+    CTA
 **********************/
 
 .cta {
@@ -242,10 +253,8 @@ section {
     color: #fff;
     text-decoration: none;
 }
-
-
 /**********************
-		Choose
+    Choose
 **********************/
 
 .choose {
@@ -271,10 +280,8 @@ section {
 }
 
 .choose-detail {}
-
-
 /**********************
-		Practice
+    Practice
 **********************/
 
 .practice {
@@ -310,10 +317,8 @@ section {
     font-size: 20px;
     margin: 0;
 }
-
-
 /**********************
-		Consultation
+    Consultation
 **********************/
 
 .consultation {
@@ -341,10 +346,8 @@ section {
     background-color: transparent;
     color: #455579;
 }
-
-
 /**********************
-		Slider
+    Slider
 **********************/
 
 .slider-1 {
@@ -387,10 +390,8 @@ section {
 .mb0 {
     margin-bottom: -70px;
 }
-
-
 /**********************
-		Team
+    Team
 **********************/
 
 .team {
@@ -426,10 +427,8 @@ section {
 .team-box h3 {
     /*font-weight: 700;*/
 }
-
-
 /**********************
-		Clients
+    Clients
 **********************/
 
 .client-box {
@@ -450,10 +449,8 @@ section {
 .client-box:hover img {
     opacity: 1;
 }
-
-
 /**********************
-		Testimonial
+    Testimonial
 **********************/
 
 .testimonial {
@@ -495,10 +492,8 @@ section {
     left: 20px;
     top: -10px;
 }
-
-
 /**********************
-		FAQ
+    FAQ
 **********************/
 
 .faq {
@@ -528,10 +523,8 @@ section {
 .faq .panel-group .panel {
     border-radius: 0;
 }
-
-
 /**********************
-		Contact
+    Contact
 **********************/
 
 .contact {
@@ -614,8 +607,6 @@ section {
 .subscribe-form {
     margin-top: 30px;
 }
-
-
 /*Footer*/
 
 .footer {
