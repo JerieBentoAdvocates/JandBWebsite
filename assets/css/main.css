@@ -305,8 +305,8 @@ section {
     margin-bottom: 30px;
     font-family: 'Lora', 'Roboto';
     font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px !important;
+    padding-right: 5px !important;
     padding-bottom: 10px;
     line-height: 15px;
     text-decoration: solid;
@@ -315,11 +315,14 @@ section {
     text-transform: capitalize;
 }
 
+.practice-box .c-table ul {
+    text-align: left;
+}
+
 .practice-box .c-table ul li {
     text-align: left;
     text-decoration: none;
     color: #333333;
-    list-style: none;
     font-style: Bold;
     font-size: 16px !important;
     line-height: 15px;
