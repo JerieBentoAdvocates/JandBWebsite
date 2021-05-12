@@ -580,7 +580,7 @@ section {
 
 .contact {
     background-color: #F2EEED;
-    color: #969595;
+    color: #6e6a6a;
 }
 
 .contact-logo {
@@ -593,6 +593,7 @@ section {
 
 .contact ul li {
     list-style-type: none;
+    font-weight: 600;
 }
 
 .contact ul li span {
